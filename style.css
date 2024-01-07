@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:black;
+    color: white; */
+ 
+}
+.buttons{
+    display: flex;
+    gap: 2.5rem;
+    margin-left: 165px;
+}
+.button{
+    border-radius: 11px;
+    cursor: pointer;
+    position:relative;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.save-btn:hover{
+    background:var(--clr);
+    letter-spacing: 5px;
+}
+
+.get-todo:hover{
+    background-color:rgb(230, 230, 55);
+    letter-spacing: 4px;
+}
+.finished:hover{
+    background-color: rgb(26, 222, 26);
+    letter-spacing: 4px;
+}
+.delete:hover{
+    background-color: rgb(233, 45, 45);
+    letter-spacing: 4px;
+}
+.heading{
+  
+   text-align: center;
+   margin: 1rem;
+   padding: 2rem;
+   font-size: 3rem;
+   color:#2D6A40;
+   border-bottom: 2px solid;
+
+}
+.row{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem;
+    gap: 6rem
+}
+.todo-input{
+    font-size: 1rem;
+    flex-basis: 48%;
+    border-radius: 1rem;
+    padding: 14px;
+    
+}
+.get-todo{
+    font-size: 1rem;
+    background-color: rgb(196, 212, 90);
+    border-radius: 11px;
+    padding: 8px
+}
+
+.list-todo-heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin: 4px 0px;
+}
+ .todo-content{
+    border: 2px solid;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    font-size: 1.8rem;
+    margin: 3rem 0rem;
+}
+.todo-no{
+border: 2px solid red;
+padding: 1rem;
+position: absolute;
+left: 9rem;
+}
+.todo-item{
+    border: 2px solid yellow;
+ 
+    padding-left: 27rem;
+ 
+}
+.todo-status{
+    border: 2px solid greenyellow;
+    padding: 1rem;
+
+} 
